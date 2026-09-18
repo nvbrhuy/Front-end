@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Bai_25/project-3/css/style.css">
+</head>
+
+<body>
+
+    <h2>Danh mục sản phẩm</h2>
+    <div id="category" class="category__list"></div>
+    <div class="search">
+        <input type="text" placeholder="Tìm kiếm theo category" id="search">
+        <button id="btnSearch">Tìm kiếm</button>
+    </div>
+    <div class="filter" id="filter">
+        <select id="sort">
+            <option value="default">Giá mặc định</option>
+            <option value="asc">Giá tăng dần</option>
+            <option value="desc">Giá giảm dần</option>
+            <option value="discount">Giá giảm nhiều</option>
+        </select>
+    </div>
+    <h2>Danh mục sản phẩm</h2>
+    <div id="product" class="product__list"></div>
+    <div class="pagination">
+        <span class="pagination__button" id="pagination__prev">Prev</span>
+        <span class="pagination__number" id="pagination__number">1</span>
+        <span class="pagination__button" id="pagination__next">Next</span>
+    </div>
+
+    <script type="module" src="/Bai_25/project-3/js/category.js"></script>
+    <script type="module" src="/Bai_25/project-3/js/product.js"></script>
+</body>
+
+</html>

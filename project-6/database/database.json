@@ -1,0 +1,1476 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "fullName": "Nguyễn Văn Bảo Huy",
+            "email": "huy@gmail.com",
+            "password": "123456",
+            "phone": "0905123456",
+            "avatar": "https://i.pravatar.cc/150?img=12",
+            "role": "user",
+            "status": "active",
+            "createdAt": "2026-08-01T08:00:00Z"
+        },
+        {
+            "id": 2,
+            "fullName": "Admin Laptop Shop",
+            "email": "admin@gmail.com",
+            "password": "admin123",
+            "phone": "0905000000",
+            "avatar": "https://i.pravatar.cc/150?img=33",
+            "role": "admin",
+            "status": "active",
+            "createdAt": "2026-08-01T08:00:00Z"
+        },
+        {
+            "id": 3,
+            "fullName": "Trần Minh Anh",
+            "email": "minhanh@gmail.com",
+            "password": "123456",
+            "phone": "0912345678",
+            "avatar": "https://i.pravatar.cc/150?img=47",
+            "role": "user",
+            "status": "active",
+            "createdAt": "2026-08-02T08:00:00Z"
+        },
+        {
+            "id": 4,
+            "fullName": "Lê Hoàng Nam",
+            "email": "nam@gmail.com",
+            "password": "123456",
+            "phone": "0987654321",
+            "avatar": "https://i.pravatar.cc/150?img=11",
+            "role": "user",
+            "status": "active",
+            "createdAt": "2026-08-03T08:00:00Z"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Laptop Gaming",
+            "slug": "laptop-gaming",
+            "description": "Laptop dành cho gaming và đồ họa"
+        },
+        {
+            "id": 2,
+            "name": "Laptop Văn Phòng",
+            "slug": "laptop-van-phong",
+            "description": "Laptop dành cho học tập và văn phòng"
+        },
+        {
+            "id": 3,
+            "name": "Laptop Đồ Họa",
+            "slug": "laptop-do-hoa",
+            "description": "Laptop dành cho thiết kế và đồ họa"
+        },
+        {
+            "id": 4,
+            "name": "Laptop Cao Cấp",
+            "slug": "laptop-cao-cap",
+            "description": "Laptop cao cấp, hiệu năng mạnh"
+        },
+        {
+            "id": 5,
+            "name": "MacBook",
+            "slug": "macbook",
+            "description": "Các dòng laptop Apple MacBook"
+        }
+    ],
+    "brands": [
+        {
+            "id": 1,
+            "name": "ASUS",
+            "slug": "asus",
+            "logo": "https://logo.clearbit.com/asus.com"
+        },
+        {
+            "id": 2,
+            "name": "Dell",
+            "slug": "dell",
+            "logo": "https://logo.clearbit.com/dell.com"
+        },
+        {
+            "id": 3,
+            "name": "HP",
+            "slug": "hp",
+            "logo": "https://logo.clearbit.com/hp.com"
+        },
+        {
+            "id": 4,
+            "name": "Lenovo",
+            "slug": "lenovo",
+            "logo": "https://logo.clearbit.com/lenovo.com"
+        },
+        {
+            "id": 5,
+            "name": "Acer",
+            "slug": "acer",
+            "logo": "https://logo.clearbit.com/acer.com"
+        },
+        {
+            "id": 6,
+            "name": "Apple",
+            "slug": "apple",
+            "logo": "https://logo.clearbit.com/apple.com"
+        },
+        {
+            "id": 7,
+            "name": "MSI",
+            "slug": "msi",
+            "logo": "https://logo.clearbit.com/msi.com"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "ASUS ROG Strix G16",
+            "slug": "asus-rog-strix-g16",
+            "categoryId": 1,
+            "brandId": 1,
+            "price": 32990000,
+            "oldPrice": 35990000,
+            "discount": 8,
+            "stock": 15,
+            "sold": 25,
+            "rating": 4.8,
+            "reviewCount": 12,
+            "thumbnail": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core i7-13650HX",
+                "ram": "16GB DDR5",
+                "storage": "512GB SSD",
+                "gpu": "NVIDIA RTX 4060 8GB",
+                "screen": "16 inch",
+                "resolution": "1920x1200",
+                "refreshRate": "165Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "Laptop gaming ASUS ROG Strix G16 với hiệu năng mạnh mẽ, phù hợp gaming và đồ họa."
+        },
+        {
+            "id": 2,
+            "name": "Dell Inspiron 15",
+            "slug": "dell-inspiron-15",
+            "categoryId": 2,
+            "brandId": 2,
+            "price": 17990000,
+            "oldPrice": 19990000,
+            "discount": 10,
+            "stock": 20,
+            "sold": 42,
+            "rating": 4.6,
+            "reviewCount": 20,
+            "thumbnail": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core i5-1335U",
+                "ram": "16GB DDR4",
+                "storage": "512GB SSD",
+                "gpu": "Intel Iris Xe",
+                "screen": "15.6 inch",
+                "resolution": "1920x1080",
+                "refreshRate": "60Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "Laptop Dell Inspiron phù hợp cho học tập, lập trình và công việc văn phòng."
+        },
+        {
+            "id": 3,
+            "name": "HP Pavilion 15",
+            "slug": "hp-pavilion-15",
+            "categoryId": 2,
+            "brandId": 3,
+            "price": 15990000,
+            "oldPrice": 17990000,
+            "discount": 11,
+            "stock": 18,
+            "sold": 31,
+            "rating": 4.5,
+            "reviewCount": 15,
+            "thumbnail": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core i5-1335U",
+                "ram": "16GB DDR4",
+                "storage": "512GB SSD",
+                "gpu": "Intel Iris Xe",
+                "screen": "15.6 inch",
+                "resolution": "1920x1080",
+                "refreshRate": "60Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "HP Pavilion 15 thiết kế hiện đại, phù hợp sinh viên và nhân viên văn phòng."
+        },
+        {
+            "id": 4,
+            "name": "Lenovo Legion 5",
+            "slug": "lenovo-legion-5",
+            "categoryId": 1,
+            "brandId": 4,
+            "price": 28990000,
+            "oldPrice": 31990000,
+            "discount": 9,
+            "stock": 12,
+            "sold": 35,
+            "rating": 4.9,
+            "reviewCount": 18,
+            "thumbnail": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642532744-d377ab507dc8?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "AMD Ryzen 7 7840HS",
+                "ram": "16GB DDR5",
+                "storage": "512GB SSD",
+                "gpu": "NVIDIA RTX 4060 8GB",
+                "screen": "15.6 inch",
+                "resolution": "2560x1440",
+                "refreshRate": "165Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "Lenovo Legion 5 gaming laptop hiệu năng cao dành cho game thủ."
+        },
+        {
+            "id": 5,
+            "name": "Acer Nitro 5",
+            "slug": "acer-nitro-5",
+            "categoryId": 1,
+            "brandId": 5,
+            "price": 21990000,
+            "oldPrice": 24990000,
+            "discount": 12,
+            "stock": 25,
+            "sold": 50,
+            "rating": 4.7,
+            "reviewCount": 25,
+            "thumbnail": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642702749-b7d2a804fbcf?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core i5-12500H",
+                "ram": "16GB DDR4",
+                "storage": "512GB SSD",
+                "gpu": "NVIDIA RTX 3050 4GB",
+                "screen": "15.6 inch",
+                "resolution": "1920x1080",
+                "refreshRate": "144Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "Acer Nitro 5 là laptop gaming có mức giá tốt, phù hợp sinh viên."
+        },
+        {
+            "id": 6,
+            "name": "MacBook Air M2",
+            "slug": "macbook-air-m2",
+            "categoryId": 5,
+            "brandId": 6,
+            "price": 24990000,
+            "oldPrice": 27990000,
+            "discount": 11,
+            "stock": 10,
+            "sold": 60,
+            "rating": 4.9,
+            "reviewCount": 30,
+            "thumbnail": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Apple M2",
+                "ram": "8GB",
+                "storage": "256GB SSD",
+                "gpu": "Integrated GPU",
+                "screen": "13.6 inch",
+                "resolution": "2560x1664",
+                "refreshRate": "60Hz",
+                "operatingSystem": "macOS"
+            },
+            "description": "MacBook Air M2 mỏng nhẹ, hiệu năng tốt và thời lượng pin cao."
+        },
+        {
+            "id": 7,
+            "name": "MSI Katana 15",
+            "slug": "msi-katana-15",
+            "categoryId": 1,
+            "brandId": 7,
+            "price": 26990000,
+            "oldPrice": 29990000,
+            "discount": 10,
+            "stock": 14,
+            "sold": 29,
+            "rating": 4.7,
+            "reviewCount": 16,
+            "thumbnail": "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core i7-12650H",
+                "ram": "16GB DDR5",
+                "storage": "512GB SSD",
+                "gpu": "NVIDIA RTX 4060 8GB",
+                "screen": "15.6 inch",
+                "resolution": "1920x1080",
+                "refreshRate": "144Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "MSI Katana 15 dành cho gaming và công việc đồ họa."
+        },
+        {
+            "id": 8,
+            "name": "MacBook Pro 14 M3",
+            "slug": "macbook-pro-14-m3",
+            "categoryId": 5,
+            "brandId": 6,
+            "price": 42990000,
+            "oldPrice": 45990000,
+            "discount": 7,
+            "stock": 8,
+            "sold": 22,
+            "rating": 5,
+            "reviewCount": 14,
+            "thumbnail": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Apple M3 Pro",
+                "ram": "18GB",
+                "storage": "512GB SSD",
+                "gpu": "Apple GPU 18-core",
+                "screen": "14.2 inch",
+                "resolution": "3024x1964",
+                "refreshRate": "120Hz",
+                "operatingSystem": "macOS"
+            },
+            "description": "MacBook Pro 14 M3 dành cho lập trình viên, designer và người dùng chuyên nghiệp."
+        },
+        {
+            "id": 9,
+            "name": "Dell XPS 13",
+            "slug": "dell-xps-13",
+            "categoryId": 4,
+            "brandId": 2,
+            "price": 29990000,
+            "oldPrice": 32990000,
+            "discount": 9,
+            "stock": 9,
+            "sold": 18,
+            "rating": 4.8,
+            "reviewCount": 10,
+            "thumbnail": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core Ultra 7",
+                "ram": "16GB LPDDR5",
+                "storage": "1TB SSD",
+                "gpu": "Intel Arc",
+                "screen": "13.4 inch",
+                "resolution": "2560x1600",
+                "refreshRate": "120Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "Dell XPS 13 cao cấp, mỏng nhẹ và phù hợp cho doanh nhân."
+        },
+        {
+            "id": 10,
+            "name": "Lenovo ThinkPad X1 Carbon",
+            "slug": "lenovo-thinkpad-x1-carbon",
+            "categoryId": 2,
+            "brandId": 4,
+            "price": 31990000,
+            "oldPrice": 34990000,
+            "discount": 8,
+            "stock": 11,
+            "sold": 16,
+            "rating": 4.8,
+            "reviewCount": 9,
+            "thumbnail": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core Ultra 7",
+                "ram": "32GB LPDDR5",
+                "storage": "1TB SSD",
+                "gpu": "Intel Arc",
+                "screen": "14 inch",
+                "resolution": "2880x1800",
+                "refreshRate": "120Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "ThinkPad X1 Carbon là dòng laptop doanh nhân cao cấp, bền và nhẹ."
+        },
+        {
+            "id": 11,
+            "name": "ASUS Vivobook 15",
+            "slug": "asus-vivobook-15",
+            "categoryId": 2,
+            "brandId": 1,
+            "price": 16990000,
+            "oldPrice": 18990000,
+            "discount": 11,
+            "stock": 24,
+            "sold": 38,
+            "rating": 4.6,
+            "reviewCount": 17,
+            "thumbnail": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core i5-1335U",
+                "ram": "16GB DDR4",
+                "storage": "512GB SSD",
+                "gpu": "Intel Iris Xe",
+                "screen": "15.6 inch",
+                "resolution": "1920x1080",
+                "refreshRate": "60Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "ASUS Vivobook 15 phù hợp cho sinh viên, học tập và công việc văn phòng."
+        },
+        {
+            "id": 12,
+            "name": "ASUS TUF Gaming F15",
+            "slug": "asus-tuf-gaming-f15",
+            "categoryId": 1,
+            "brandId": 1,
+            "price": 23990000,
+            "oldPrice": 26990000,
+            "discount": 11,
+            "stock": 17,
+            "sold": 46,
+            "rating": 4.7,
+            "reviewCount": 24,
+            "thumbnail": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642702749-b7d2a804fbcf?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core i7-12700H",
+                "ram": "16GB DDR4",
+                "storage": "512GB SSD",
+                "gpu": "NVIDIA RTX 3050 4GB",
+                "screen": "15.6 inch",
+                "resolution": "1920x1080",
+                "refreshRate": "144Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "ASUS TUF Gaming F15 mạnh mẽ, bền bỉ và phù hợp cho gaming."
+        },
+        {
+            "id": 13,
+            "name": "Dell Latitude 5440",
+            "slug": "dell-latitude-5440",
+            "categoryId": 2,
+            "brandId": 2,
+            "price": 20990000,
+            "oldPrice": 22990000,
+            "discount": 9,
+            "stock": 16,
+            "sold": 27,
+            "rating": 4.7,
+            "reviewCount": 13,
+            "thumbnail": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core i5-1345U",
+                "ram": "16GB DDR5",
+                "storage": "512GB SSD",
+                "gpu": "Intel Iris Xe",
+                "screen": "14 inch",
+                "resolution": "1920x1080",
+                "refreshRate": "60Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "Dell Latitude 5440 là laptop doanh nghiệp bền bỉ, phù hợp công việc văn phòng."
+        },
+        {
+            "id": 14,
+            "name": "Dell G15 Gaming",
+            "slug": "dell-g15-gaming",
+            "categoryId": 1,
+            "brandId": 2,
+            "price": 27990000,
+            "oldPrice": 30990000,
+            "discount": 10,
+            "stock": 13,
+            "sold": 33,
+            "rating": 4.8,
+            "reviewCount": 19,
+            "thumbnail": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642532744-d377ab507dc8?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core i7-13650HX",
+                "ram": "16GB DDR5",
+                "storage": "1TB SSD",
+                "gpu": "NVIDIA RTX 4060 8GB",
+                "screen": "15.6 inch",
+                "resolution": "1920x1080",
+                "refreshRate": "165Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "Dell G15 Gaming sở hữu hiệu năng mạnh, phù hợp gaming và đồ họa."
+        },
+        {
+            "id": 15,
+            "name": "HP Victus 15",
+            "slug": "hp-victus-15",
+            "categoryId": 1,
+            "brandId": 3,
+            "price": 22990000,
+            "oldPrice": 25990000,
+            "discount": 12,
+            "stock": 19,
+            "sold": 41,
+            "rating": 4.7,
+            "reviewCount": 22,
+            "thumbnail": "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "AMD Ryzen 7 7840HS",
+                "ram": "16GB DDR5",
+                "storage": "512GB SSD",
+                "gpu": "NVIDIA RTX 4050 6GB",
+                "screen": "15.6 inch",
+                "resolution": "1920x1080",
+                "refreshRate": "144Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "HP Victus 15 mang đến hiệu năng gaming mạnh mẽ trong tầm giá."
+        },
+        {
+            "id": 16,
+            "name": "HP Envy x360 14",
+            "slug": "hp-envy-x360-14",
+            "categoryId": 4,
+            "brandId": 3,
+            "price": 27990000,
+            "oldPrice": 30990000,
+            "discount": 10,
+            "stock": 9,
+            "sold": 21,
+            "rating": 4.8,
+            "reviewCount": 15,
+            "thumbnail": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core Ultra 7",
+                "ram": "16GB LPDDR5",
+                "storage": "1TB SSD",
+                "gpu": "Intel Arc",
+                "screen": "14 inch",
+                "resolution": "2880x1800",
+                "refreshRate": "120Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "HP Envy x360 14 thiết kế cao cấp, màn hình cảm ứng và khả năng xoay 360 độ."
+        },
+        {
+            "id": 17,
+            "name": "Lenovo IdeaPad Slim 5",
+            "slug": "lenovo-ideapad-slim-5",
+            "categoryId": 2,
+            "brandId": 4,
+            "price": 17990000,
+            "oldPrice": 19990000,
+            "discount": 10,
+            "stock": 22,
+            "sold": 39,
+            "rating": 4.6,
+            "reviewCount": 18,
+            "thumbnail": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "AMD Ryzen 5 7530U",
+                "ram": "16GB DDR4",
+                "storage": "512GB SSD",
+                "gpu": "AMD Radeon Graphics",
+                "screen": "15.6 inch",
+                "resolution": "1920x1080",
+                "refreshRate": "60Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "Lenovo IdeaPad Slim 5 mỏng nhẹ, phù hợp học tập và văn phòng."
+        },
+        {
+            "id": 18,
+            "name": "Lenovo LOQ 15",
+            "slug": "lenovo-loq-15",
+            "categoryId": 1,
+            "brandId": 4,
+            "price": 24990000,
+            "oldPrice": 27990000,
+            "discount": 11,
+            "stock": 15,
+            "sold": 44,
+            "rating": 4.8,
+            "reviewCount": 25,
+            "thumbnail": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642702749-b7d2a804fbcf?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core i7-13650HX",
+                "ram": "16GB DDR5",
+                "storage": "512GB SSD",
+                "gpu": "NVIDIA RTX 4050 6GB",
+                "screen": "15.6 inch",
+                "resolution": "1920x1080",
+                "refreshRate": "144Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "Lenovo LOQ 15 là laptop gaming hiệu năng cao với thiết kế hiện đại."
+        },
+        {
+            "id": 19,
+            "name": "Acer Aspire 5",
+            "slug": "acer-aspire-5",
+            "categoryId": 2,
+            "brandId": 5,
+            "price": 14990000,
+            "oldPrice": 16990000,
+            "discount": 12,
+            "stock": 28,
+            "sold": 52,
+            "rating": 4.5,
+            "reviewCount": 27,
+            "thumbnail": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core i5-1335U",
+                "ram": "16GB DDR4",
+                "storage": "512GB SSD",
+                "gpu": "Intel Iris Xe",
+                "screen": "15.6 inch",
+                "resolution": "1920x1080",
+                "refreshRate": "60Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "Acer Aspire 5 là lựa chọn hợp lý cho sinh viên và nhân viên văn phòng."
+        },
+        {
+            "id": 20,
+            "name": "Acer Swift Go 14",
+            "slug": "acer-swift-go-14",
+            "categoryId": 4,
+            "brandId": 5,
+            "price": 19990000,
+            "oldPrice": 21990000,
+            "discount": 9,
+            "stock": 18,
+            "sold": 29,
+            "rating": 4.7,
+            "reviewCount": 14,
+            "thumbnail": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core Ultra 5",
+                "ram": "16GB LPDDR5",
+                "storage": "512GB SSD",
+                "gpu": "Intel Arc",
+                "screen": "14 inch",
+                "resolution": "2880x1800",
+                "refreshRate": "90Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "Acer Swift Go 14 mỏng nhẹ, màn hình đẹp và phù hợp làm việc di động."
+        },
+        {
+            "id": 21,
+            "name": "Acer Predator Helios Neo 16",
+            "slug": "acer-predator-helios-neo-16",
+            "categoryId": 1,
+            "brandId": 5,
+            "price": 34990000,
+            "oldPrice": 38990000,
+            "discount": 10,
+            "stock": 7,
+            "sold": 19,
+            "rating": 4.9,
+            "reviewCount": 12,
+            "thumbnail": "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core i9-14900HX",
+                "ram": "32GB DDR5",
+                "storage": "1TB SSD",
+                "gpu": "NVIDIA RTX 4070 8GB",
+                "screen": "16 inch",
+                "resolution": "2560x1600",
+                "refreshRate": "240Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "Acer Predator Helios Neo 16 dành cho gaming cao cấp và công việc đồ họa nặng."
+        },
+        {
+            "id": 22,
+            "name": "MacBook Air M3 13",
+            "slug": "macbook-air-m3-13",
+            "categoryId": 5,
+            "brandId": 6,
+            "price": 27990000,
+            "oldPrice": 30990000,
+            "discount": 10,
+            "stock": 14,
+            "sold": 48,
+            "rating": 4.9,
+            "reviewCount": 26,
+            "thumbnail": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Apple M3",
+                "ram": "8GB",
+                "storage": "256GB SSD",
+                "gpu": "Apple GPU 8-core",
+                "screen": "13.6 inch",
+                "resolution": "2560x1664",
+                "refreshRate": "60Hz",
+                "operatingSystem": "macOS"
+            },
+            "description": "MacBook Air M3 mỏng nhẹ, thời lượng pin tốt và hiệu năng mạnh."
+        },
+        {
+            "id": 23,
+            "name": "MacBook Air M3 15",
+            "slug": "macbook-air-m3-15",
+            "categoryId": 5,
+            "brandId": 6,
+            "price": 31990000,
+            "oldPrice": 34990000,
+            "discount": 9,
+            "stock": 11,
+            "sold": 35,
+            "rating": 4.9,
+            "reviewCount": 20,
+            "thumbnail": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Apple M3",
+                "ram": "16GB",
+                "storage": "512GB SSD",
+                "gpu": "Apple GPU 10-core",
+                "screen": "15.3 inch",
+                "resolution": "2880x1864",
+                "refreshRate": "60Hz",
+                "operatingSystem": "macOS"
+            },
+            "description": "MacBook Air M3 15 inch sở hữu màn hình lớn và hiệu năng mạnh mẽ."
+        },
+        {
+            "id": 24,
+            "name": "MacBook Pro 14 M4",
+            "slug": "macbook-pro-14-m4",
+            "categoryId": 5,
+            "brandId": 6,
+            "price": 45990000,
+            "oldPrice": 49990000,
+            "discount": 8,
+            "stock": 6,
+            "sold": 17,
+            "rating": 5,
+            "reviewCount": 11,
+            "thumbnail": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Apple M4 Pro",
+                "ram": "24GB",
+                "storage": "512GB SSD",
+                "gpu": "Apple GPU 16-core",
+                "screen": "14.2 inch",
+                "resolution": "3024x1964",
+                "refreshRate": "120Hz",
+                "operatingSystem": "macOS"
+            },
+            "description": "MacBook Pro 14 M4 dành cho lập trình, thiết kế và công việc chuyên nghiệp."
+        },
+        {
+            "id": 25,
+            "name": "MSI Thin 15",
+            "slug": "msi-thin-15",
+            "categoryId": 1,
+            "brandId": 7,
+            "price": 19990000,
+            "oldPrice": 22990000,
+            "discount": 13,
+            "stock": 20,
+            "sold": 57,
+            "rating": 4.6,
+            "reviewCount": 31,
+            "thumbnail": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642702749-b7d2a804fbcf?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core i5-13420H",
+                "ram": "16GB DDR4",
+                "storage": "512GB SSD",
+                "gpu": "NVIDIA RTX 4050 6GB",
+                "screen": "15.6 inch",
+                "resolution": "1920x1080",
+                "refreshRate": "144Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "MSI Thin 15 là laptop gaming mỏng nhẹ với mức giá dễ tiếp cận."
+        },
+        {
+            "id": 26,
+            "name": "MSI Cyborg 15",
+            "slug": "msi-cyborg-15",
+            "categoryId": 1,
+            "brandId": 7,
+            "price": 24990000,
+            "oldPrice": 27990000,
+            "discount": 11,
+            "stock": 12,
+            "sold": 32,
+            "rating": 4.7,
+            "reviewCount": 17,
+            "thumbnail": "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core i7-13620H",
+                "ram": "16GB DDR5",
+                "storage": "512GB SSD",
+                "gpu": "NVIDIA RTX 4060 8GB",
+                "screen": "15.6 inch",
+                "resolution": "1920x1080",
+                "refreshRate": "144Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "MSI Cyborg 15 có thiết kế gaming độc đáo và hiệu năng mạnh."
+        },
+        {
+            "id": 27,
+            "name": "ASUS Zenbook 14 OLED",
+            "slug": "asus-zenbook-14-oled",
+            "categoryId": 3,
+            "brandId": 1,
+            "price": 26990000,
+            "oldPrice": 29990000,
+            "discount": 10,
+            "stock": 10,
+            "sold": 24,
+            "rating": 4.9,
+            "reviewCount": 16,
+            "thumbnail": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core Ultra 7",
+                "ram": "16GB LPDDR5X",
+                "storage": "1TB SSD",
+                "gpu": "Intel Arc",
+                "screen": "14 inch OLED",
+                "resolution": "2880x1800",
+                "refreshRate": "120Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "ASUS Zenbook 14 OLED có màn hình OLED đẹp, phù hợp thiết kế và sáng tạo nội dung."
+        },
+        {
+            "id": 28,
+            "name": "Dell Precision 3581",
+            "slug": "dell-precision-3581",
+            "categoryId": 3,
+            "brandId": 2,
+            "price": 33990000,
+            "oldPrice": 36990000,
+            "discount": 8,
+            "stock": 8,
+            "sold": 14,
+            "rating": 4.8,
+            "reviewCount": 9,
+            "thumbnail": "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core i7-13800H",
+                "ram": "32GB DDR5",
+                "storage": "1TB SSD",
+                "gpu": "NVIDIA RTX A1000 6GB",
+                "screen": "15.6 inch",
+                "resolution": "1920x1080",
+                "refreshRate": "60Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "Dell Precision 3581 dành cho kỹ sư, designer và các công việc đồ họa chuyên nghiệp."
+        },
+        {
+            "id": 29,
+            "name": "Lenovo Yoga Slim 7",
+            "slug": "lenovo-yoga-slim-7",
+            "categoryId": 4,
+            "brandId": 4,
+            "price": 23990000,
+            "oldPrice": 26990000,
+            "discount": 11,
+            "stock": 13,
+            "sold": 28,
+            "rating": 4.8,
+            "reviewCount": 15,
+            "thumbnail": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "AMD Ryzen 7 8840HS",
+                "ram": "16GB LPDDR5X",
+                "storage": "1TB SSD",
+                "gpu": "AMD Radeon 780M",
+                "screen": "14 inch OLED",
+                "resolution": "2880x1800",
+                "refreshRate": "90Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "Lenovo Yoga Slim 7 cao cấp, mỏng nhẹ và phù hợp cho người dùng thường xuyên di chuyển."
+        },
+        {
+            "id": 30,
+            "name": "HP Omen 16",
+            "slug": "hp-omen-16",
+            "categoryId": 1,
+            "brandId": 3,
+            "price": 32990000,
+            "oldPrice": 36990000,
+            "discount": 11,
+            "stock": 9,
+            "sold": 23,
+            "rating": 4.9,
+            "reviewCount": 14,
+            "thumbnail": "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?auto=format&fit=crop&w=800&q=80",
+            "images": [
+                "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=1200&q=80",
+                "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=1200&q=80"
+            ],
+            "specifications": {
+                "cpu": "Intel Core i7-14700HX",
+                "ram": "32GB DDR5",
+                "storage": "1TB SSD",
+                "gpu": "NVIDIA RTX 4070 8GB",
+                "screen": "16.1 inch",
+                "resolution": "2560x1440",
+                "refreshRate": "240Hz",
+                "operatingSystem": "Windows 11"
+            },
+            "description": "HP Omen 16 là laptop gaming cao cấp dành cho game thủ và người dùng chuyên nghiệp."
+        }
+    ],
+    "carts": [
+        {
+            "id": 1,
+            "userId": 1,
+            "items": [
+                {
+                    "productId": 1,
+                    "quantity": 1,
+                    "price": 32990000
+                },
+                {
+                    "productId": 6,
+                    "quantity": 1,
+                    "price": 24990000
+                }
+            ],
+            "totalQuantity": 2,
+            "totalPrice": 57980000,
+            "updatedAt": "2026-08-06T08:00:00Z"
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "items": [
+                {
+                    "productId": 3,
+                    "quantity": 2,
+                    "price": 15990000
+                },
+                {
+                    "productId": 5,
+                    "quantity": 1,
+                    "price": 21990000
+                }
+            ],
+            "totalQuantity": 3,
+            "totalPrice": 53970000,
+            "updatedAt": "2026-08-06T08:30:00Z"
+        },
+        {
+            "id": 3,
+            "userId": 3,
+            "items": [
+                {
+                    "productId": 4,
+                    "quantity": 1,
+                    "price": 28990000
+                }
+            ],
+            "totalQuantity": 1,
+            "totalPrice": 28990000,
+            "updatedAt": "2026-08-05T10:00:00Z"
+        },
+        {
+            "id": 4,
+            "userId": 4,
+            "items": [],
+            "totalQuantity": 0,
+            "totalPrice": 0,
+            "updatedAt": "2026-08-05T12:00:00Z"
+        }
+    ],
+    "addresses": [
+        {
+            "id": 1,
+            "userId": 1,
+            "fullName": "Nguyễn Văn Bảo Huy",
+            "phone": "0905123456",
+            "province": "Đà Nẵng",
+            "district": "Sơn Trà",
+            "ward": "An Hải Bắc",
+            "address": "123 Ngô Quyền",
+            "isDefault": true
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "fullName": "Admin Laptop Shop",
+            "phone": "0905000000",
+            "province": "Đà Nẵng",
+            "district": "Hải Châu",
+            "ward": "Thạch Thang",
+            "address": "100 Nguyễn Văn Linh",
+            "isDefault": true
+        },
+        {
+            "id": 3,
+            "userId": 3,
+            "fullName": "Trần Minh Anh",
+            "phone": "0912345678",
+            "province": "Đà Nẵng",
+            "district": "Hải Châu",
+            "ward": "Thanh Bình",
+            "address": "45 Nguyễn Văn Linh",
+            "isDefault": true
+        }
+    ],
+    "coupons": [
+        {
+            "id": 1,
+            "code": "WELCOME10",
+            "description": "Giảm 10% cho khách hàng mới",
+            "discountType": "percent",
+            "discountValue": 10,
+            "maxDiscount": 1000000,
+            "minOrderValue": 5000000,
+            "quantity": 100,
+            "used": 20,
+            "status": "active",
+            "startDate": "2026-08-01T00:00:00Z",
+            "endDate": "2026-12-31T23:59:59Z"
+        },
+        {
+            "id": 2,
+            "code": "GIAM500K",
+            "description": "Giảm 500.000đ cho đơn hàng từ 20 triệu",
+            "discountType": "fixed",
+            "discountValue": 500000,
+            "maxDiscount": 500000,
+            "minOrderValue": 20000000,
+            "quantity": 50,
+            "used": 5,
+            "status": "active",
+            "startDate": "2026-08-01T00:00:00Z",
+            "endDate": "2026-10-31T23:59:59Z"
+        },
+        {
+            "id": 3,
+            "code": "LAPTOP1TR",
+            "description": "Giảm 1 triệu cho đơn laptop từ 30 triệu",
+            "discountType": "fixed",
+            "discountValue": 1000000,
+            "maxDiscount": 1000000,
+            "minOrderValue": 30000000,
+            "quantity": 30,
+            "used": 3,
+            "status": "active",
+            "startDate": "2026-08-01T00:00:00Z",
+            "endDate": "2026-09-30T23:59:59Z"
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "userId": 1,
+            "orderCode": "LS000001",
+            "items": [
+                {
+                    "productId": 2,
+                    "name": "Dell Inspiron 15",
+                    "thumbnail": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
+                    "price": 17990000,
+                    "quantity": 1,
+                    "total": 17990000
+                }
+            ],
+            "shippingAddress": {
+                "fullName": "Nguyễn Văn Bảo Huy",
+                "phone": "0905123456",
+                "province": "Đà Nẵng",
+                "district": "Sơn Trà",
+                "ward": "An Hải Bắc",
+                "address": "123 Ngô Quyền"
+            },
+            "subtotal": 17990000,
+            "shippingFee": 30000,
+            "discount": 0,
+            "total": 18020000,
+            "couponCode": null,
+            "paymentMethod": "cod",
+            "paymentStatus": "unpaid",
+            "orderStatus": "delivered",
+            "note": "Giao hàng trong giờ hành chính",
+            "createdAt": "2026-08-02T09:00:00Z",
+            "updatedAt": "2026-08-04T15:00:00Z"
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "orderCode": "LS000002",
+            "items": [
+                {
+                    "productId": 5,
+                    "name": "Acer Nitro 5",
+                    "thumbnail": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=800&q=80",
+                    "price": 21990000,
+                    "quantity": 1,
+                    "total": 21990000
+                }
+            ],
+            "shippingAddress": {
+                "fullName": "Admin Laptop Shop",
+                "phone": "0905000000",
+                "province": "Đà Nẵng",
+                "district": "Hải Châu",
+                "ward": "Thạch Thang",
+                "address": "100 Nguyễn Văn Linh"
+            },
+            "subtotal": 21990000,
+            "shippingFee": 0,
+            "discount": 500000,
+            "total": 21490000,
+            "couponCode": "GIAM500K",
+            "paymentMethod": "banking",
+            "paymentStatus": "paid",
+            "orderStatus": "processing",
+            "note": "",
+            "createdAt": "2026-08-06T08:30:00Z",
+            "updatedAt": "2026-08-06T08:35:00Z"
+        },
+        {
+            "id": 3,
+            "userId": 3,
+            "orderCode": "LS000003",
+            "items": [
+                {
+                    "productId": 6,
+                    "name": "MacBook Air M2",
+                    "thumbnail": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+                    "price": 24990000,
+                    "quantity": 1,
+                    "total": 24990000
+                }
+            ],
+            "shippingAddress": {
+                "fullName": "Trần Minh Anh",
+                "phone": "0912345678",
+                "province": "Đà Nẵng",
+                "district": "Hải Châu",
+                "ward": "Thanh Bình",
+                "address": "45 Nguyễn Văn Linh"
+            },
+            "subtotal": 24990000,
+            "shippingFee": 30000,
+            "discount": 0,
+            "total": 25020000,
+            "couponCode": null,
+            "paymentMethod": "cod",
+            "paymentStatus": "unpaid",
+            "orderStatus": "shipping",
+            "note": "Vui lòng gọi trước khi giao",
+            "createdAt": "2026-08-05T10:00:00Z",
+            "updatedAt": "2026-08-06T07:30:00Z"
+        }
+    ],
+    "favorites": [
+        {
+            "id": 1,
+            "userId": 1,
+            "productId": 4,
+            "createdAt": "2026-08-03T10:00:00Z"
+        },
+        {
+            "id": 2,
+            "userId": 1,
+            "productId": 8,
+            "createdAt": "2026-08-04T11:00:00Z"
+        },
+        {
+            "id": 3,
+            "userId": 3,
+            "productId": 6,
+            "createdAt": "2026-08-04T12:00:00Z"
+        },
+        {
+            "id": 4,
+            "userId": 4,
+            "productId": 1,
+            "createdAt": "2026-08-05T14:00:00Z"
+        }
+    ],
+    "reviews": [
+        {
+            "id": 1,
+            "userId": 1,
+            "productId": 2,
+            "orderId": 1,
+            "rating": 5,
+            "title": "Laptop rất tốt",
+            "content": "Máy chạy mượt, thiết kế đẹp, giao hàng nhanh.",
+            "images": [
+                "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80"
+            ],
+            "status": "approved",
+            "createdAt": "2026-08-05T10:00:00Z"
+        },
+        {
+            "id": 2,
+            "userId": 3,
+            "productId": 6,
+            "orderId": 3,
+            "rating": 5,
+            "title": "MacBook rất đẹp",
+            "content": "Thiết kế mỏng nhẹ, hiệu năng tốt, pin rất ổn.",
+            "images": [],
+            "status": "approved",
+            "createdAt": "2026-08-05T14:00:00Z"
+        },
+        {
+            "id": 3,
+            "userId": 4,
+            "productId": 5,
+            "orderId": null,
+            "rating": 4,
+            "title": "Hiệu năng tốt",
+            "content": "Laptop gaming chạy game tốt trong tầm giá.",
+            "images": [],
+            "status": "approved",
+            "createdAt": "2026-08-06T08:00:00Z"
+        }
+    ],
+    "notifications": [
+        {
+            "id": 1,
+            "userId": 1,
+            "title": "Đơn hàng đã giao thành công",
+            "message": "Đơn hàng LS000001 đã được giao thành công.",
+            "type": "order",
+            "isRead": true,
+            "createdAt": "2026-08-04T15:00:00Z"
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "title": "Đơn hàng mới",
+            "message": "Đơn hàng LS000002 đã được tạo.",
+            "type": "order",
+            "isRead": false,
+            "createdAt": "2026-08-06T08:30:00Z"
+        },
+        {
+            "id": 3,
+            "userId": 3,
+            "title": "Đơn hàng đang giao",
+            "message": "Đơn hàng LS000003 đang được vận chuyển.",
+            "type": "order",
+            "isRead": false,
+            "createdAt": "2026-08-06T07:30:00Z"
+        }
+    ],
+    "payments": [
+        {
+            "id": 1,
+            "orderId": 1,
+            "userId": 1,
+            "method": "cod",
+            "amount": 18020000,
+            "status": "pending",
+            "transactionCode": null,
+            "createdAt": "2026-08-02T09:00:00Z"
+        },
+        {
+            "id": 2,
+            "orderId": 2,
+            "userId": 2,
+            "method": "banking",
+            "amount": 21490000,
+            "status": "success",
+            "transactionCode": "BANK202608060001",
+            "createdAt": "2026-08-06T08:35:00Z"
+        },
+        {
+            "id": 3,
+            "orderId": 3,
+            "userId": 3,
+            "method": "cod",
+            "amount": 25020000,
+            "status": "pending",
+            "transactionCode": null,
+            "createdAt": "2026-08-05T10:00:00Z"
+        }
+    ],
+    "banners": [
+        {
+            "id": 1,
+            "title": "Laptop Gaming Chính Hãng",
+            "description": "Giảm đến 20% các dòng laptop gaming",
+            "image": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?auto=format&fit=crop&w=1600&q=80",
+            "link": "/category/laptop-gaming",
+            "status": "active"
+        },
+        {
+            "id": 2,
+            "title": "MacBook Chính Hãng",
+            "description": "MacBook Air M2 giá cực tốt",
+            "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1600&q=80",
+            "link": "/category/macbook",
+            "status": "active"
+        },
+        {
+            "id": 3,
+            "title": "Laptop Văn Phòng",
+            "description": "Laptop dành cho học tập và công việc",
+            "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1600&q=80",
+            "link": "/category/laptop-van-phong",
+            "status": "active"
+        }
+    ],
+    "contacts": [
+        {
+            "id": 1,
+            "name": "Nguyễn Văn A",
+            "email": "nguyenvana@gmail.com",
+            "phone": "0901234567",
+            "subject": "Hỏi về sản phẩm",
+            "message": "Shop cho mình hỏi ASUS ROG còn hàng không?",
+            "status": "pending",
+            "createdAt": "2026-08-05T09:00:00Z"
+        },
+        {
+            "id": 2,
+            "name": "Phạm Minh Tuấn",
+            "email": "tuan@gmail.com",
+            "phone": "0988123456",
+            "subject": "Bảo hành",
+            "message": "Cho mình hỏi chính sách bảo hành MacBook.",
+            "status": "processing",
+            "createdAt": "2026-08-06T09:00:00Z"
+        }
+    ]
+}
